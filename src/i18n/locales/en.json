@@ -1,0 +1,124 @@
+{
+  "header": {
+    "tours": "Tours",
+    "planner": "Trip Planner",
+    "info": "Travel Info",
+    "login": "Sign In",
+    "profile": "Profile"
+  },
+  "footer": {
+    "contact": "Contact Us",
+    "quickLinks": "Quick Links",
+    "payment": "Payment Methods",
+    "followUs": "Follow Us",
+    "about": "About Us",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "rights": "All rights reserved"
+  },
+  "planner": {
+    "title": "AI Travel Planner",
+    "subtitle": "Create your perfect Nice experience in minutes",
+    "modes": {
+      "quick": {
+        "title": "Quick Plan",
+        "description": "Perfect for spontaneous travelers. Get a basic itinerary in minutes."
+      },
+      "standard": {
+        "title": "Standard Plan",
+        "description": "Balanced planning with personalized recommendations."
+      },
+      "complete": {
+        "title": "Complete Plan",
+        "description": "Detailed planning with full customization options."
+      }
+    },
+    "questions": {
+      "dates": {
+        "title": "When are you planning to visit?",
+        "subtitle": "Select your travel dates"
+      },
+      "travelers": {
+        "title": "How many people are traveling?",
+        "subtitle": "Select the number of travelers"
+      },
+      "interests": {
+        "title": "What interests you most?",
+        "subtitle": "Choose your preferred activities"
+      },
+      "locations": {
+        "title": "Which areas would you like to explore?",
+        "subtitle": "Select your preferred locations"
+      },
+      "budget": {
+        "title": "What's your daily budget per person?",
+        "subtitle": "Choose your comfort level"
+      }
+    },
+    "options": {
+      "culture": "Art & Culture",
+      "food": "Gastronomy",
+      "shopping": "Luxury Shopping",
+      "nature": "Nature & Outdoors",
+      "history": "Historical Sites",
+      "luxury": "Luxury Experiences"
+    },
+    "result": {
+      "title": "Your Personalized Travel Plan",
+      "subtitle": "We've crafted the perfect itinerary based on your preferences",
+      "itinerary": "Daily Itinerary",
+      "accommodation": "Recommended Hotels",
+      "packages": "Travel Packages",
+      "ready": "Ready to Book?",
+      "readyDescription": "Secure your perfect Nice experience now",
+      "timeline": {
+        "breakfast": "Start your day",
+        "morning": "Morning Activity",
+        "lunch": "Lunch Break",
+        "afternoon": "Afternoon Activity",
+        "evening": "Evening Plans",
+        "dinner": "Dinner Time"
+      },
+      "package": {
+        "essential": {
+          "title": "Essential Package",
+          "description": "Perfect for independent travelers"
+        },
+        "premium": {
+          "title": "Premium Package",
+          "description": "Enhanced experience with guided tours"
+        },
+        "luxury": {
+          "title": "Luxury Package",
+          "description": "Ultimate luxury experience"
+        }
+      }
+    },
+    "locations": {
+      "oldTown": "Old Town (Vieux Nice)",
+      "promenade": "Promenade des Anglais",
+      "castle": "Castle Hill",
+      "port": "Port of Nice"
+    }
+  },
+  "common": {
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Create Plan",
+    "days": "Days",
+    "bookNow": "Book Now",
+    "select": "Select Package",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "day": "Day",
+    "perPerson": "per person",
+    "perNight": "per night",
+    "share": "Share Plan",
+    "download": "Download PDF",
+    "selected": "Selected",
+    "clear": "Clear Selection"
+  }
+}

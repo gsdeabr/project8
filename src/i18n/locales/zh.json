@@ -1,0 +1,124 @@
+{
+  "header": {
+    "tours": "旅游路线",
+    "planner": "行程规划",
+    "info": "旅行信息",
+    "login": "登录",
+    "profile": "个人中心"
+  },
+  "footer": {
+    "contact": "联系我们",
+    "quickLinks": "快速链接",
+    "payment": "支付方式",
+    "followUs": "关注我们",
+    "about": "关于我们",
+    "terms": "条款和条件",
+    "privacy": "隐私政策",
+    "rights": "版权所有"
+  },
+  "planner": {
+    "title": "AI旅行规划师",
+    "subtitle": "几分钟内规划完美的尼斯之旅",
+    "modes": {
+      "quick": {
+        "title": "快速规划",
+        "description": "适合即兴旅行者，几分钟内获得基本行程。"
+      },
+      "standard": {
+        "title": "标准规划",
+        "description": "平衡的规划，提供个性化推荐。"
+      },
+      "complete": {
+        "title": "完整规划",
+        "description": "详细规划，提供全面的定制选项。"
+      }
+    },
+    "questions": {
+      "dates": {
+        "title": "您计划什么时候访问？",
+        "subtitle": "选择您的旅行日期"
+      },
+      "travelers": {
+        "title": "有多少人一起旅行？",
+        "subtitle": "选择旅行人数"
+      },
+      "interests": {
+        "title": "您最感兴趣的是什么？",
+        "subtitle": "选择您喜欢的活动"
+      },
+      "locations": {
+        "title": "您想探索哪些地区？",
+        "subtitle": "选择您想去的地方"
+      },
+      "budget": {
+        "title": "您的每人每日预算是多少？",
+        "subtitle": "选择您的舒适度"
+      }
+    },
+    "options": {
+      "culture": "艺术与文化",
+      "food": "美食",
+      "shopping": "奢侈品购物",
+      "nature": "自然与户外",
+      "history": "历史景点",
+      "luxury": "奢华体验"
+    },
+    "result": {
+      "title": "您的个性化旅行计划",
+      "subtitle": "我们根据您的偏好制定了完美的行程",
+      "itinerary": "每日行程",
+      "accommodation": "推荐酒店",
+      "packages": "旅行套餐",
+      "ready": "准备预订？",
+      "readyDescription": "立即确保您的完美尼斯之旅",
+      "timeline": {
+        "breakfast": "开始新的一天",
+        "morning": "上午活动",
+        "lunch": "午餐时间",
+        "afternoon": "下午活动",
+        "evening": "晚间计划",
+        "dinner": "晚餐时间"
+      },
+      "package": {
+        "essential": {
+          "title": "基础套餐",
+          "description": "适合独立旅行者"
+        },
+        "premium": {
+          "title": "高级套餐",
+          "description": "含导游的升级体验"
+        },
+        "luxury": {
+          "title": "奢华套餐",
+          "description": "终极奢华体验"
+        }
+      }
+    },
+    "locations": {
+      "oldTown": "老城区（尼斯老城）",
+      "promenade": "英国人漫步道",
+      "castle": "城堡山",
+      "port": "尼斯港"
+    }
+  },
+  "common": {
+    "next": "下一步",
+    "previous": "上一步",
+    "finish": "生成计划",
+    "days": "天",
+    "bookNow": "立即预订",
+    "select": "选择套餐",
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "day": "第",
+    "perPerson": "每人",
+    "perNight": "每晚",
+    "share": "分享计划",
+    "download": "下载PDF",
+    "selected": "已选择",
+    "clear": "清除选择"
+  }
+}
