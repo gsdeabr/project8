@@ -20,19 +20,17 @@ export const CTASection: React.FC<CTASectionProps> = ({ onStartPlanning }) => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-3xl font-bold mb-4">
-              Ready to Experience Nice?
+              {t('home.cta.title')}
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Start planning your perfect Nice journey today with our AI-powered
-              trip planner. Personalized recommendations, bilingual support, and
-              luxury experiences await.
+              {t('home.cta.description')}
             </p>
             <button
               onClick={onStartPlanning}
               className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-colors"
             >
               <Calendar className="w-5 h-5" />
-              Start Planning Now
+              {t('home.cta.button')}
               <ArrowRight className="w-5 h-5" />
             </button>
           </motion.div>

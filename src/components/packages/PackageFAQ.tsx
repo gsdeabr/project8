@@ -9,27 +9,27 @@ export const PackageFAQ: React.FC = () => {
 
   const faqs = [
     {
-      question: 'What payment methods do you accept?',
-      answer: 'We accept WeChat Pay, Alipay, and all major international credit cards. Payment can be made in CNY or EUR.'
+      question: t('packages.faq.items.payment.question'),
+      answer: t('packages.faq.items.payment.answer')
     },
     {
-      question: 'Can I customize my package?',
-      answer: 'Yes, all packages can be customized to better suit your preferences. Contact our team for personalization options.'
+      question: t('packages.faq.items.customization.question'),
+      answer: t('packages.faq.items.customization.answer')
     },
     {
-      question: 'What languages do your guides speak?',
-      answer: 'Our guides are fluent in Mandarin Chinese, English, and French. We ensure clear communication throughout your trip.'
+      question: t('packages.faq.items.languages.question'),
+      answer: t('packages.faq.items.languages.answer')
     },
     {
-      question: 'How far in advance should I book?',
-      answer: 'We recommend booking at least 2-3 weeks in advance, especially during peak season (June-September).'
+      question: t('packages.faq.items.booking.question'),
+      answer: t('packages.faq.items.booking.answer')
     }
   ];
 
   return (
     <section className="mb-16">
       <h2 className="text-2xl font-bold text-center mb-8">
-        Frequently Asked Questions
+        {t('packages.faq.title')}
       </h2>
       
       <div className="max-w-3xl mx-auto space-y-4">

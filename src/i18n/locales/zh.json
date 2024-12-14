@@ -1,10 +1,14 @@
 {
   "header": {
-    "tours": "旅游路线",
+    "tours": "旅游项目",
     "planner": "行程规划",
-    "info": "旅行信息",
+    "info": "旅游信息",
     "login": "登录",
-    "profile": "个人中心"
+    "profile": "个人中心",
+    "logo": {
+      "title": "尼斯奢华",
+      "subtitle": "尊享旅行体验"
+    }
   },
   "footer": {
     "contact": "联系我们",
@@ -99,6 +103,252 @@
       "promenade": "英国人漫步道",
       "castle": "城堡山",
       "port": "尼斯港"
+    }
+  },
+  "home": {
+    "hero": {
+      "highlights": {
+        "hotels": {
+          "title": "高级酒店",
+          "description": "精心挑选的豪华住宿"
+        },
+        "dining": {
+          "title": "精致美食",
+          "description": "米其林星级体验"
+        },
+        "secrets": {
+          "title": "当地秘境",
+          "description": "隐藏景点和观景台"
+        },
+        "shopping": {
+          "title": "购物体验",
+          "description": "奢侈品精品店和市场"
+        }
+      },
+      "images": {
+        "promenade": "尼斯海滨大道",
+        "oldTown": "尼斯老城区",
+        "architecture": "尼斯建筑",
+        "beach": "尼斯海滩",
+        "market": "尼斯市场"
+      },
+      "rated": "超过1000位旅客评分4.9/5",
+      "title": "探索魔力",
+      "subtitle": "法国尼斯",
+      "description": "体验法国蔚蓝海岸最美丽的城市，我们精心设计的旅游路线。从迷人的海滩到历史悠久的街道，创造终生难忘的回忆。",
+      "startPlanning": "开始规划",
+      "browseTours": "浏览路线"
+    },
+    "features": {
+      "title": "为什么选择尼斯奢华之旅？",
+      "subtitle": "我们专注于为中国游客打造难忘的体验，将奢华与当地文化完美结合。",
+      "items": {
+        "bilingual": {
+          "title": "双语支持",
+          "description": "全程提供中文和英文语言支持"
+        },
+        "expertise": {
+          "title": "本地专业知识",
+          "description": "精通中法两国文化的专业导游"
+        },
+        "payments": {
+          "title": "便捷支付",
+          "description": "支持微信支付、支付宝和国际信用卡"
+        },
+        "assistance": {
+          "title": "24小时服务",
+          "description": "全天候提供您偏好语言的支持服务"
+        }
+      }
+    },
+    "popularTours": {
+      "title": "最受欢迎的体验",
+      "subtitle": "发现我们精心挑选的体验，专为寻找尼斯精华的中国游客精心策划。",
+      "tours": {
+        "cityHighlights": {
+          "title": "尼斯城市精华",
+          "duration": "4小时"
+        },
+        "riviera": {
+          "title": "法国蔚蓝海岸体验",
+          "duration": "8小时"
+        },
+        "shopping": {
+          "title": "奢华购物之旅",
+          "duration": "6小时"
+        }
+      },
+      "viewDetails": "查看详情",
+      "viewAllTours": "查看所有路线",
+      "euro": "€"
+    },
+    "testimonials": {
+      "title": "客户评价",
+      "subtitle": "阅读体验过我们尼斯高端旅游服务的中国游客的真实评价。",
+      "reviews": {
+        "zhang": {
+          "name": "张先生",
+          "location": "北京",
+          "text": "个性化服务非常出色。我们的导游普通话说得很好，让我们在尼斯感觉宾至如归。"
+        },
+        "wang": {
+          "name": "王女士",
+          "location": "上海",
+          "text": "奢侈品购物之旅太棒了！他们安排得很完美，包括退税服务。"
+        },
+        "li": {
+          "name": "李先生",
+          "location": "广州",
+          "text": "支持微信支付非常方便。当地美食推荐都很棒！"
+        }
+      }
+    },
+    "tourTypes": {
+      "title": "适合各类旅行者的行程",
+      "subtitle": "无论您是独自旅行、与家人同行还是团体出游，我们都为您量身定制完美的旅行体验。",
+      "types": {
+        "individual": {
+          "title": "个人定制游",
+          "description": "根据您的兴趣和时间表量身定制的个性化体验。适合追求灵活性的单独旅行者。"
+        },
+        "smallGroup": {
+          "title": "小团体游",
+          "description": "4-8人的精品小团，提供更社交和互动的体验。适合朋友和志同道合的旅行者。"
+        },
+        "family": {
+          "title": "家庭游",
+          "description": "适合儿童的活动和住宿，为家庭创造难忘的时刻。儿童特惠价格。"
+        },
+        "school": {
+          "title": "学校团体游",
+          "description": "为学生团体提供教育和文化课程。将学习与趣味活动相结合。"
+        },
+        "corporate": {
+          "title": "企业团体游",
+          "description": "团队建设活动和专业活动。适合商务团建和奖励旅游。"
+        },
+        "custom": {
+          "title": "定制团体游",
+          "description": "完全可定制的团体体验，规模不限。告诉我们您的需求，我们将为您创建完美的行程。"
+        }
+      }
+    },
+    "whyChooseUs": {
+      "title": "尼斯奢华之旅的与众不同",
+      "subtitle": "通过我们专为中国游客设计的高端服务，以前所未有的方式体验法国蔚蓝海岸。",
+      "reasons": {
+        "safety": {
+          "title": "安全可靠",
+          "description": "与可信赖的本地合作伙伴提供持证和投保的旅游服务"
+        },
+        "personalized": {
+          "title": "个性化体验",
+          "description": "根据您的兴趣和偏好定制行程"
+        },
+        "premium": {
+          "title": "优质服务",
+          "description": "关注每一个细节的奢华体验"
+        },
+        "flexible": {
+          "title": "灵活规划",
+          "description": "随时调整您的行程和偏好"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好体验尼斯了吗？",
+      "description": "立即使用我们的AI驱动的行程规划工具开始规划您的完美尼斯之旅。个性化推荐、双语支持和豪华体验等待着您。",
+      "button": "立即开始规划"
+    }
+  },
+  "profile": {
+    "settings": "设置",
+    "notifications": "通知",
+    "payments": "支付",
+    "history": "历史",
+    "sections": {
+      "account": {
+        "title": "账户设置",
+        "personal": "个人信息",
+        "security": "密码与安全",
+        "language": "语言与地区"
+      },
+      "communication": {
+        "title": "通讯设置",
+        "notifications": "通知设置",
+        "email": "邮件偏好",
+        "wechat": "微信设置"
+      },
+      "paymentPrivacy": {
+        "title": "支付与隐私",
+        "payment": "支付方式",
+        "privacy": "隐私设置"
+      }
+    },
+    "travelHistory": {
+      "title": "旅行历史",
+      "trips": {
+        "culturalTour": {
+          "title": "尼斯文化遗产之旅",
+          "review": "非常出色的旅程，细节安排周到。导游知识渊博。"
+        },
+        "rivieraTour": {
+          "title": "法国蔚蓝海岸体验",
+          "review": "沿海岸线的美妙体验。强烈推荐！"
+        }
+      }
+    }
+  },
+  "packages": {
+    "features": {
+      "title": "每个套餐包含",
+      "items": {
+        "bilingual": {
+          "title": "双语支持",
+          "description": "所有服务均提供中文和英文支持"
+        },
+        "guides": {
+          "title": "专业当地导游",
+          "description": "了解中国文化的专业导游"
+        },
+        "payment": {
+          "title": "灵活支付",
+          "description": "支持微信支付、支付宝和国际信用卡"
+        },
+        "assistance": {
+          "title": "24/7全天候支持",
+          "description": "使用您的语言提供全天候支持"
+        },
+        "photo": {
+          "title": "摄影服务",
+          "description": "专业摄影为您记录美好回忆"
+        },
+        "transport": {
+          "title": "高端交通",
+          "description": "舒适可靠的交通服务"
+        }
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": {
+        "payment": {
+          "question": "接受哪些支付方式？",
+          "answer": "我们接受微信支付、支付宝和所有主要的国际信用卡。可以使用人民币或欧元支付。"
+        },
+        "customization": {
+          "question": "可以定制套餐吗？",
+          "answer": "是的，所有套餐都可以根据您的偏好进行定制。请联系我们的团队了解个性化选项。"
+        },
+        "languages": {
+          "question": "导游会说什么语言？",
+          "answer": "我们的导游精通中文、英语和法语。确保全程沟通顺畅。"
+        },
+        "booking": {
+          "question": "需要提前多久预订？",
+          "answer": "我们建议至少提前2-3周预订，特别是在旺季（6月-9月）期间。"
+        }
+      }
     }
   },
   "common": {

@@ -15,46 +15,46 @@ export const Hero: React.FC<HeroProps> = ({ onStartPlanning }) => {
   const highlights = [
     {
       icon: Building,
-      label: 'Premium Hotels',
-      description: 'Handpicked luxury accommodations'
+      label: t('home.hero.highlights.hotels.title'),
+      description: t('home.hero.highlights.hotels.description')
     },
     {
       icon: Utensils,
-      label: 'Fine Dining',
-      description: 'Michelin-starred experiences'
+      label: t('home.hero.highlights.dining.title'),
+      description: t('home.hero.highlights.dining.description')
     },
     {
       icon: MapPin,
-      label: 'Local Secrets',
-      description: 'Hidden gems and viewpoints'
+      label: t('home.hero.highlights.secrets.title'),
+      description: t('home.hero.highlights.secrets.description')
     },
     {
       icon: ShoppingBag,
-      label: 'Shopping',
-      description: 'Luxury boutiques & markets'
+      label: t('home.hero.highlights.shopping.title'),
+      description: t('home.hero.highlights.shopping.description')
     }
   ];
 
   const images = [
   {
     url: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=600&h=400',
-    alt: 'Nice Promenade'
+    alt: t('home.hero.images.promenade')
   },
   {
     url: 'https://images.unsplash.com/photo-1534258936925-c58bed479fcb?auto=format&fit=crop&w=600&h=400',
-    alt: 'Nice Old Town'
+    alt: t('home.hero.images.oldTown')
   },
   {
     url: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&h=400',
-    alt: 'Nice Architecture'
+    alt: t('home.hero.images.architecture')
   },
   {
     url: 'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=600&h=400',
-    alt: 'Nice Beach'
+    alt: t('home.hero.images.beach')
   },
   {
     url: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&h=400',
-    alt: 'Nice Market'
+    alt: t('home.hero.images.market')
   }
   ];
 
@@ -72,17 +72,16 @@ export const Hero: React.FC<HeroProps> = ({ onStartPlanning }) => {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-600 mb-8">
               <Star className="w-4 h-4" />
-              <span className="text-sm font-medium">Rated 4.9/5 by 1000+ travelers</span>
+              <span className="text-sm font-medium">{t('home.hero.rated')}</span>
             </div>
 
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Discover the Magic<br />
-              <span className="text-blue-600">of Nice, France</span>
+              {t('home.hero.title')}<br />
+              <span className="text-blue-600">{t('home.hero.subtitle')}</span>
             </h1>
 
             <p className="text-xl text-gray-600 mb-8">
-              Experience the French Riviera's most beautiful city with our expertly crafted tours.
-              From stunning beaches to historic streets, create memories that last a lifetime.
+              {t('home.hero.description')}
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-8">
@@ -112,14 +111,14 @@ export const Hero: React.FC<HeroProps> = ({ onStartPlanning }) => {
                 className="bg-blue-600 text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-blue-700 transition-colors flex items-center gap-2 shadow-lg hover:shadow-xl"
               >
                 <Sparkles className="w-5 h-5" />
-                Start Planning
+                {t('home.hero.startPlanning')}
               </button>
               <button 
                 onClick={() => navigate('/tours')}
                 className="bg-white text-gray-900 px-8 py-3 rounded-xl text-lg font-semibold hover:bg-gray-50 transition-colors flex items-center gap-2 shadow-sm hover:shadow-md border border-gray-200"
               >
                 <Calendar className="w-5 h-5" />
-                Browse Tours
+                {t('home.hero.browseTours')}
               </button>
             </div>
           </motion.div>

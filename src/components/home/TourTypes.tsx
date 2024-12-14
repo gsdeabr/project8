@@ -12,48 +12,48 @@ export const TourTypes: React.FC = () => {
     {
       id: 'individual',
       icon: User,
-      title: 'Individual Tours',
-      description: 'Personalized experiences tailored to your interests and schedule. Perfect for solo travelers seeking flexibility.',
+      title: t('home.tourTypes.types.individual.title'),
+      description: t('home.tourTypes.types.individual.description'),
       image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800',
       color: 'from-blue-500 to-blue-600'
     },
     {
       id: 'small-group',
       icon: Users,
-      title: 'Small Group Tours',
-      description: 'Intimate groups of 4-8 people for a more social and interactive experience. Ideal for friends and like-minded travelers.',
+      title: t('home.tourTypes.types.smallGroup.title'),
+      description: t('home.tourTypes.types.smallGroup.description'),
       image: 'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&w=800',
       color: 'from-purple-500 to-purple-600'
     },
     {
       id: 'family',
       icon: Heart,
-      title: 'Family Tours',
-      description: 'Kid-friendly activities and accommodations designed for memorable family moments. Special rates for children.',
+      title: t('home.tourTypes.types.family.title'),
+      description: t('home.tourTypes.types.family.description'),
       image: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=800',
       color: 'from-pink-500 to-pink-600'
     },
     {
       id: 'school',
       icon: GraduationCap,
-      title: 'School Tours',
-      description: 'Educational and cultural programs for student groups. Combines learning with fun activities.',
+      title: t('home.tourTypes.types.school.title'),
+      description: t('home.tourTypes.types.school.description'),
       image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800',
       color: 'from-green-500 to-green-600'
     },
     {
       id: 'corporate',
       icon: Building2,
-      title: 'Corporate Groups',
-      description: 'Team building activities and professional events. Perfect for business retreats and incentive travel.',
+      title: t('home.tourTypes.types.corporate.title'),
+      description: t('home.tourTypes.types.corporate.description'),
       image: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=800',
       color: 'from-amber-500 to-amber-600'
     },
     {
       id: 'custom',
       icon: Users2,
-      title: 'Custom Groups',
-      description: "Fully customizable experiences for any group size. Tell us your needs, and we'll create the perfect itinerary.",
+      title: t('home.tourTypes.types.custom.title'),
+      description: t('home.tourTypes.types.custom.description'),
       image: 'https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?auto=format&fit=crop&w=800',
       color: 'from-red-500 to-red-600'
     }
@@ -69,11 +69,10 @@ export const TourTypes: React.FC = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Tours for Every Type of Traveler
+              {t('home.tourTypes.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Whether you're traveling solo, with family, or in a group, we have the perfect
-              tour experience designed just for you.
+              {t('home.tourTypes.subtitle')}
             </p>
           </motion.div>
         </div>

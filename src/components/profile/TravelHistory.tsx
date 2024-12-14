@@ -9,19 +9,19 @@ export const TravelHistory: React.FC = () => {
   const trips = [
     {
       id: '1',
-      title: 'Nice Cultural Heritage Tour',
+      title: t('profile.travelHistory.trips.culturalTour.title'),
       date: '2024-02-15',
       image: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=600',
       rating: 5,
-      review: 'Excellent tour with great attention to detail. Our guide was very knowledgeable.'
+      review: t('profile.travelHistory.trips.culturalTour.review')
     },
     {
       id: '2',
-      title: 'French Riviera Experience',
+      title: t('profile.travelHistory.trips.rivieraTour.title'),
       date: '2023-12-20',
       image: 'https://images.unsplash.com/photo-1534258936925-c58bed479fcb?auto=format&fit=crop&w=600',
       rating: 4,
-      review: 'Beautiful experience along the coast. Would recommend!'
+      review: t('profile.travelHistory.trips.rivieraTour.review')
     }
   ];
 

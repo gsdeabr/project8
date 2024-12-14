@@ -23,8 +23,8 @@ export const Header: React.FC = () => {
               <span className="text-xl font-bold text-white">NL</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-blue-900">Nice Luxury</span>
-              <span className="text-sm text-blue-600">Premium Travel Experience</span>
+              <span className="text-xl font-bold text-blue-900">{t('header.logo.title')}</span>
+              <span className="text-sm text-blue-600">{t('header.logo.subtitle')}</span>
             </div>
           </Link>
 

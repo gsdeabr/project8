@@ -9,26 +9,26 @@ export const Features: React.FC = () => {
   const features = [
     {
       icon: Globe,
-      title: 'Bilingual Support',
-      description: 'Full Chinese and English language support throughout your journey',
+      title: t('home.features.items.bilingual.title'),
+      description: t('home.features.items.bilingual.description'),
       color: 'bg-blue-100 text-blue-600'
     },
     {
       icon: Users,
-      title: 'Local Expertise',
-      description: 'Expert guides who understand both Chinese and French cultures',
+      title: t('home.features.items.expertise.title'),
+      description: t('home.features.items.expertise.description'),
       color: 'bg-purple-100 text-purple-600'
     },
     {
       icon: CreditCard,
-      title: 'Easy Payments',
-      description: 'Support for WeChat Pay, Alipay, and international cards',
+      title: t('home.features.items.payments.title'),
+      description: t('home.features.items.payments.description'),
       color: 'bg-green-100 text-green-600'
     },
     {
       icon: HeadphonesIcon,
-      title: '24/7 Assistance',
-      description: 'Round-the-clock support in your preferred language',
+      title: t('home.features.items.assistance.title'),
+      description: t('home.features.items.assistance.description'),
       color: 'bg-amber-100 text-amber-600'
     }
   ];
@@ -43,11 +43,10 @@ export const Features: React.FC = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Choose Nice Luxury?
+              {t('home.features.title')}
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We specialize in creating unforgettable experiences for Chinese travelers,
-              combining luxury with authentic local culture.
+              {t('home.features.subtitle')}
             </p>
           </motion.div>
         </div>

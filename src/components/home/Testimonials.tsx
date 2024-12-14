@@ -8,24 +8,24 @@ export const Testimonials: React.FC = () => {
 
   const testimonials = [
     {
-      name: '张先生',
-      location: 'Beijing',
+      name: t('home.testimonials.reviews.zhang.name'),
+      location: t('home.testimonials.reviews.zhang.location'),
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?fit=crop&w=100&h=100',
-      text: 'The personalized service was exceptional. Our guide spoke perfect Mandarin and made us feel at home in Nice.',
+      text: t('home.testimonials.reviews.zhang.text'),
       rating: 5
     },
     {
-      name: '王女士',
-      location: 'Shanghai',
+      name: t('home.testimonials.reviews.wang.name'),
+      location: t('home.testimonials.reviews.wang.location'),
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?fit=crop&w=100&h=100',
-      text: 'Luxury shopping tour was amazing! They arranged everything perfectly, including tax-free shopping assistance.',
+      text: t('home.testimonials.reviews.wang.text'),
       rating: 5
     },
     {
-      name: '李先生',
-      location: 'Guangzhou',
+      name: t('home.testimonials.reviews.li.name'),
+      location: t('home.testimonials.reviews.li.location'),
       image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?fit=crop&w=100&h=100',
-      text: 'WeChat Pay support made everything convenient. The local food recommendations were excellent!',
+      text: t('home.testimonials.reviews.li.text'),
       rating: 5
     }
   ];
@@ -35,11 +35,10 @@ export const Testimonials: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            What Our Guests Say
+            {t('home.testimonials.title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Read authentic reviews from Chinese travelers who experienced
-            our premium Nice tours and services.
+            {t('home.testimonials.subtitle')}
           </p>
         </div>
 

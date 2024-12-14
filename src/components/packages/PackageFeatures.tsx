@@ -9,40 +9,40 @@ export const PackageFeatures: React.FC = () => {
   const features = [
     {
       icon: Globe,
-      title: 'Bilingual Support',
-      description: 'All services available in Chinese and English'
+      title: t('packages.features.items.bilingual.title'),
+      description: t('packages.features.items.bilingual.description')
     },
     {
       icon: Users,
-      title: 'Expert Local Guides',
-      description: 'Professional guides who understand Chinese culture'
+      title: t('packages.features.items.guides.title'),
+      description: t('packages.features.items.guides.description')
     },
     {
       icon: CreditCard,
-      title: 'Flexible Payment',
-      description: 'WeChat Pay, Alipay, and international cards accepted'
+      title: t('packages.features.items.payment.title'),
+      description: t('packages.features.items.payment.description')
     },
     {
       icon: HeadphonesIcon,
-      title: '24/7 Assistance',
-      description: 'Round-the-clock support in your language'
+      title: t('packages.features.items.assistance.title'),
+      description: t('packages.features.items.assistance.description')
     },
     {
       icon: Camera,
-      title: 'Photo Service',
-      description: 'Professional photography for your memories'
+      title: t('packages.features.items.photo.title'),
+      description: t('packages.features.items.photo.description')
     },
     {
       icon: Car,
-      title: 'Premium Transport',
-      description: 'Comfortable and reliable transportation'
+      title: t('packages.features.items.transport.title'),
+      description: t('packages.features.items.transport.description')
     }
   ];
 
   return (
     <section className="mb-16">
       <h2 className="text-2xl font-bold text-center mb-8">
-        Included in Every Package
+        {t('packages.features.title')}
       </h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

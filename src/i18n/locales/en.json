@@ -4,7 +4,11 @@
     "planner": "Trip Planner",
     "info": "Travel Info",
     "login": "Sign In",
-    "profile": "Profile"
+    "profile": "Profile",
+    "logo": {
+      "title": "Nice Luxury",
+      "subtitle": "Premium Travel Experience"
+    }
   },
   "footer": {
     "contact": "Contact Us",
@@ -99,6 +103,252 @@
       "promenade": "Promenade des Anglais",
       "castle": "Castle Hill",
       "port": "Port of Nice"
+    }
+  },
+  "home": {
+    "hero": {
+      "highlights": {
+        "hotels": {
+          "title": "Premium Hotels",
+          "description": "Handpicked luxury accommodations"
+        },
+        "dining": {
+          "title": "Fine Dining",
+          "description": "Michelin-starred experiences"
+        },
+        "secrets": {
+          "title": "Local Secrets",
+          "description": "Hidden gems and viewpoints"
+        },
+        "shopping": {
+          "title": "Shopping",
+          "description": "Luxury boutiques & markets"
+        }
+      },
+      "images": {
+        "promenade": "Nice Promenade",
+        "oldTown": "Nice Old Town",
+        "architecture": "Nice Architecture",
+        "beach": "Nice Beach",
+        "market": "Nice Market"
+      },
+      "rated": "Rated 4.9/5 by 1000+ travelers",
+      "title": "Discover the Magic",
+      "subtitle": "of Nice, France",
+      "description": "Experience the French Riviera's most beautiful city with our expertly crafted tours. From stunning beaches to historic streets, create memories that last a lifetime.",
+      "startPlanning": "Start Planning",
+      "browseTours": "Browse Tours"
+    },
+    "features": {
+      "title": "Why Choose Nice Luxury?",
+      "subtitle": "We specialize in creating unforgettable experiences for Chinese travelers, combining luxury with authentic local culture.",
+      "items": {
+        "bilingual": {
+          "title": "Bilingual Support",
+          "description": "Full Chinese and English language support throughout your journey"
+        },
+        "expertise": {
+          "title": "Local Expertise",
+          "description": "Expert guides who understand both Chinese and French cultures"
+        },
+        "payments": {
+          "title": "Easy Payments",
+          "description": "Support for WeChat Pay, Alipay, and international cards"
+        },
+        "assistance": {
+          "title": "24/7 Assistance",
+          "description": "Round-the-clock support in your preferred language"
+        }
+      }
+    },
+    "popularTours": {
+      "title": "Most Popular Experiences",
+      "subtitle": "Discover our hand-picked selection of experiences, specially curated for Chinese travelers seeking the best of Nice.",
+      "tours": {
+        "cityHighlights": {
+          "title": "Nice City Highlights",
+          "duration": "4 hours"
+        },
+        "riviera": {
+          "title": "French Riviera Experience",
+          "duration": "8 hours"
+        },
+        "shopping": {
+          "title": "Luxury Shopping Tour",
+          "duration": "6 hours"
+        }
+      },
+      "viewDetails": "View Details",
+      "viewAllTours": "View All Tours",
+      "euro": "€"
+    },
+    "testimonials": {
+      "title": "What Our Guests Say",
+      "subtitle": "Read authentic reviews from Chinese travelers who experienced our premium Nice tours and services.",
+      "reviews": {
+        "zhang": {
+          "name": "张先生",
+          "location": "Beijing",
+          "text": "The personalized service was exceptional. Our guide spoke perfect Mandarin and made us feel at home in Nice."
+        },
+        "wang": {
+          "name": "王女士",
+          "location": "Shanghai",
+          "text": "Luxury shopping tour was amazing! They arranged everything perfectly, including tax-free shopping assistance."
+        },
+        "li": {
+          "name": "李先生",
+          "location": "Guangzhou",
+          "text": "WeChat Pay support made everything convenient. The local food recommendations were excellent!"
+        }
+      }
+    },
+    "tourTypes": {
+      "title": "Tours for Every Type of Traveler",
+      "subtitle": "Whether you're traveling solo, with family, or in a group, we have the perfect tour experience designed just for you.",
+      "types": {
+        "individual": {
+          "title": "Individual Tours",
+          "description": "Personalized experiences tailored to your interests and schedule. Perfect for solo travelers seeking flexibility."
+        },
+        "smallGroup": {
+          "title": "Small Group Tours",
+          "description": "Intimate groups of 4-8 people for a more social and interactive experience. Ideal for friends and like-minded travelers."
+        },
+        "family": {
+          "title": "Family Tours",
+          "description": "Kid-friendly activities and accommodations designed for memorable family moments. Special rates for children."
+        },
+        "school": {
+          "title": "School Tours",
+          "description": "Educational and cultural programs for student groups. Combines learning with fun activities."
+        },
+        "corporate": {
+          "title": "Corporate Groups",
+          "description": "Team building activities and professional events. Perfect for business retreats and incentive travel."
+        },
+        "custom": {
+          "title": "Custom Groups",
+          "description": "Fully customizable experiences for any group size. Tell us your needs, and we'll create the perfect itinerary."
+        }
+      }
+    },
+    "whyChooseUs": {
+      "title": "The Nice Luxury Difference",
+      "subtitle": "Experience the French Riviera like never before with our premium services designed specifically for Chinese travelers.",
+      "reasons": {
+        "safety": {
+          "title": "Safe & Secure",
+          "description": "Licensed and insured tours with trusted local partners"
+        },
+        "personalized": {
+          "title": "Personalized Experience",
+          "description": "Tailored itineraries that match your interests and preferences"
+        },
+        "premium": {
+          "title": "Premium Quality",
+          "description": "Luxury experiences with attention to every detail"
+        },
+        "flexible": {
+          "title": "Flexible Planning",
+          "description": "Adjust your schedule and preferences at any time"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Experience Nice?",
+      "description": "Start planning your perfect Nice journey today with our AI-powered trip planner. Personalized recommendations, bilingual support, and luxury experiences await.",
+      "button": "Start Planning Now"
+    }
+  },
+  "profile": {
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "payments": "Payments",
+    "history": "History",
+    "sections": {
+      "account": {
+        "title": "Account Settings",
+        "personal": "Personal Information",
+        "security": "Password & Security",
+        "language": "Language & Region"
+      },
+      "communication": {
+        "title": "Communication",
+        "notifications": "Notifications",
+        "email": "Email Preferences",
+        "wechat": "WeChat Settings"
+      },
+      "paymentPrivacy": {
+        "title": "Payment & Privacy",
+        "payment": "Payment Methods",
+        "privacy": "Privacy Settings"
+      }
+    },
+    "travelHistory": {
+      "title": "Travel History",
+      "trips": {
+        "culturalTour": {
+          "title": "Nice Cultural Heritage Tour",
+          "review": "Excellent tour with great attention to detail. Our guide was very knowledgeable."
+        },
+        "rivieraTour": {
+          "title": "French Riviera Experience",
+          "review": "Beautiful experience along the coast. Would recommend!"
+        }
+      }
+    }
+  },
+  "packages": {
+    "features": {
+      "title": "Included in Every Package",
+      "items": {
+        "bilingual": {
+          "title": "Bilingual Support",
+          "description": "All services available in Chinese and English"
+        },
+        "guides": {
+          "title": "Expert Local Guides",
+          "description": "Professional guides who understand Chinese culture"
+        },
+        "payment": {
+          "title": "Flexible Payment",
+          "description": "WeChat Pay, Alipay, and international cards accepted"
+        },
+        "assistance": {
+          "title": "24/7 Assistance",
+          "description": "Round-the-clock support in your language"
+        },
+        "photo": {
+          "title": "Photo Service",
+          "description": "Professional photography for your memories"
+        },
+        "transport": {
+          "title": "Premium Transport",
+          "description": "Comfortable and reliable transportation"
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": {
+        "payment": {
+          "question": "What payment methods do you accept?",
+          "answer": "We accept WeChat Pay, Alipay, and all major international credit cards. Payment can be made in CNY or EUR."
+        },
+        "customization": {
+          "question": "Can I customize my package?",
+          "answer": "Yes, all packages can be customized to better suit your preferences. Contact our team for personalization options."
+        },
+        "languages": {
+          "question": "What languages do your guides speak?",
+          "answer": "Our guides are fluent in Mandarin Chinese, English, and French. We ensure clear communication throughout your trip."
+        },
+        "booking": {
+          "question": "How far in advance should I book?",
+          "answer": "We recommend booking at least 2-3 weeks in advance, especially during peak season (June-September)."
+        }
+      }
     }
   },
   "common": {

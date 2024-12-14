@@ -9,23 +9,23 @@ export const WhyChooseUs: React.FC = () => {
   const reasons = [
     {
       icon: Shield,
-      title: 'Safe & Secure',
-      description: 'Licensed and insured tours with trusted local partners'
+      title: t('home.whyChooseUs.reasons.safety.title'),
+      description: t('home.whyChooseUs.reasons.safety.description')
     },
     {
       icon: Heart,
-      title: 'Personalized Experience',
-      description: 'Tailored itineraries that match your interests and preferences'
+      title: t('home.whyChooseUs.reasons.personalized.title'),
+      description: t('home.whyChooseUs.reasons.personalized.description')
     },
     {
       icon: Star,
-      title: 'Premium Quality',
-      description: 'Luxury experiences with attention to every detail'
+      title: t('home.whyChooseUs.reasons.premium.title'),
+      description: t('home.whyChooseUs.reasons.premium.description')
     },
     {
       icon: Clock,
-      title: 'Flexible Planning',
-      description: 'Adjust your schedule and preferences at any time'
+      title: t('home.whyChooseUs.reasons.flexible.title'),
+      description: t('home.whyChooseUs.reasons.flexible.description')
     }
   ];
 
@@ -34,11 +34,10 @@ export const WhyChooseUs: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            The Nice Luxury Difference
+            {t('home.whyChooseUs.title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Experience the French Riviera like never before with our premium services
-            designed specifically for Chinese travelers.
+            {t('home.whyChooseUs.subtitle')}
           </p>
         </div>
 

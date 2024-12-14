@@ -11,22 +11,22 @@ export const PopularTours: React.FC = () => {
   const tours = [
     {
       image: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be',
-      title: 'Nice City Highlights',
-      duration: '4 hours',
+      title: t('home.popularTours.tours.cityHighlights.title'),
+      duration: t('home.popularTours.tours.cityHighlights.duration'),
       price: 129,
       rating: 4.9
     },
     {
       image: 'https://images.unsplash.com/photo-1534258936925-c58bed479fcb',
-      title: 'French Riviera Experience',
-      duration: '8 hours',
+      title: t('home.popularTours.tours.riviera.title'),
+      duration: t('home.popularTours.tours.riviera.duration'),
       price: 249,
       rating: 4.8
     },
     {
       image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4',
-      title: 'Luxury Shopping Tour',
-      duration: '6 hours',
+      title: t('home.popularTours.tours.shopping.title'),
+      duration: t('home.popularTours.tours.shopping.duration'),
       price: 179,
       rating: 4.9
     }
@@ -37,11 +37,10 @@ export const PopularTours: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Most Popular Experiences
+            {t('home.popularTours.title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Discover our hand-picked selection of experiences, specially curated for
-            Chinese travelers seeking the best of Nice.
+            {t('home.popularTours.subtitle')}
           </p>
         </div>
 
@@ -73,13 +72,13 @@ export const PopularTours: React.FC = () => {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-2xl font-bold text-blue-600">
-                    €{tour.price}
+                    {t('home.popularTours.euro')}{tour.price}
                   </span>
                   <button 
                     onClick={() => navigate('/tours')}
                     className="flex items-center gap-2 text-blue-600 hover:text-blue-700"
                   >
-                    View Details
+                    {t('home.popularTours.viewDetails')}
                     <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>
@@ -93,7 +92,7 @@ export const PopularTours: React.FC = () => {
             onClick={() => navigate('/tours')}
             className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
           >
-            View All Tours
+            {t('home.popularTours.viewAllTours')}
             <ArrowRight className="w-5 h-5" />
           </button>
         </div>

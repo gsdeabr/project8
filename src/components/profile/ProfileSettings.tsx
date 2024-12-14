@@ -13,26 +13,26 @@ export const ProfileSettings: React.FC = () => {
 
   const sections = [
     {
-      title: 'Account Settings',
+      title: t('profile.sections.account.title'),
       items: [
-        { icon: User, label: 'Personal Information', href: '#personal' },
-        { icon: Key, label: 'Password & Security', href: '#security' },
-        { icon: Globe, label: 'Language & Region', href: '#language' }
+        { icon: User, label: t('profile.sections.account.personal'), href: '#personal' },
+        { icon: Key, label: t('profile.sections.account.security'), href: '#security' },
+        { icon: Globe, label: t('profile.sections.account.language'), href: '#language' }
       ]
     },
     {
-      title: 'Communication',
+      title: t('profile.sections.communication.title'),
       items: [
-        { icon: Bell, label: 'Notifications', href: '#notifications' },
-        { icon: Mail, label: 'Email Preferences', href: '#email' },
-        { icon: MessageCircle, label: 'WeChat Settings', href: '#wechat' }
+        { icon: Bell, label: t('profile.sections.communication.notifications'), href: '#notifications' },
+        { icon: Mail, label: t('profile.sections.communication.email'), href: '#email' },
+        { icon: MessageCircle, label: t('profile.sections.communication.wechat'), href: '#wechat' }
       ]
     },
     {
-      title: 'Payment & Privacy',
+      title: t('profile.sections.paymentPrivacy.title'),
       items: [
-        { icon: CreditCard, label: 'Payment Methods', href: '#payment' },
-        { icon: Shield, label: 'Privacy Settings', href: '#privacy' }
+        { icon: CreditCard, label: t('profile.sections.paymentPrivacy.payment'), href: '#payment' },
+        { icon: Shield, label: t('profile.sections.paymentPrivacy.privacy'), href: '#privacy' }
       ]
     }
   ];
